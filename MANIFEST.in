@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include quickcontact *.css
+recursive-include quickcontact *.csv
+recursive-include quickcontact *.html
+recursive-include quickcontact *.ico
+recursive-include quickcontact *.js
+recursive-include quickcontact *.json
+recursive-include quickcontact *.md
+recursive-include quickcontact *.png
+recursive-include quickcontact *.py
+recursive-include quickcontact *.svg
+recursive-include quickcontact *.txt
+recursive-exclude quickcontact *.pyc
